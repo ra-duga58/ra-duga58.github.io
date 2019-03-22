@@ -1052,14 +1052,14 @@ button:focus {
 }
 
 #mu-register::before {
-	background: rgba(0,0,0,0.9);
+
 	bottom: 0;
 	content: '';
 	left: 0;
 	top: 0;
 	right: 0;
 	position: absolute;
-	opacity: 0.9;
+	opacity: 0.3;
 }
 #mu-register .certificate {
 	background-position: center center;
