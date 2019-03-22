@@ -1050,6 +1050,7 @@ button:focus {
 	float: left;
 	position: relative;
 	width: 100%;
+	margin-top: 49px;
 }
 
 #mu-register::before {
@@ -1738,9 +1739,7 @@ button:focus {
 		.vip::after {
 			left: 165px;
 		}
-#mu-register {
-	margin-top: 0;
-}
+
 }
 
 
