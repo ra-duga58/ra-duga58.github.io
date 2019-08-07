@@ -736,7 +736,7 @@ table tbody tr td {
 	.table {
 		width: 100%;
 	}
-	.contacts {
+	#contacts {
 		flex-direction: column;
 	}
 }
