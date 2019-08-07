@@ -726,6 +726,10 @@ table tbody tr td {
 
 		justify-content: center;
 	}
+	
+	.item-caruosel-text {
+		font-size: 14px;
+	}
 }
 
 @media (max-width: 600px)
