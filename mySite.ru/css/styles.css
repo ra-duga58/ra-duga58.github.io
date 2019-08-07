@@ -741,7 +741,7 @@ table tbody tr td {
 	}
 	
 	iframe {
-		width: 400px;
+		width: 400px !imrortant;
 	}
 }
 
