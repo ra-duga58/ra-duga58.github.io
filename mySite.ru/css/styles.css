@@ -730,6 +730,9 @@ table tbody tr td {
 	.lp-slider1 .item-carousel_text {
 		font-size: 18px;
 	}
+	#slideshow {
+		padding-bottom: 40px;
+	}
 }
 
 @media (max-width: 600px)
