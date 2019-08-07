@@ -79,7 +79,8 @@ header.top ul li a {
     background-blend-mode: multiply;
     background-size: cover;
     padding-top: 40px;
-    padding-bottom: 150px;
+    padding-bottom: 40px;
+	margin-bottom: 110px;
 
 }
 
