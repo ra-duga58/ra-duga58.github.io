@@ -716,8 +716,8 @@ table tbody tr td {
 	.container-tel {
 		display: none;
 	}
-	.features-wrap {
-		 justify-content: center;
+	.features-item {
+		 align-items: center;
 	}
 }
 
