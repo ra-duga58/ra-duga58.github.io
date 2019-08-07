@@ -707,3 +707,10 @@ table tbody tr td {
     grid-row-start: 4;
     grid-row-end: 6;
 }
+/*media queris*/
+@media (max-width: 767px) {
+	.logo-img {
+		display: none;
+		
+}
+}
