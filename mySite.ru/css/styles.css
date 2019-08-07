@@ -717,3 +717,5 @@ table tbody tr td {
 		display: none;
 	}
 }
+
+@media (max-width: 600px)
