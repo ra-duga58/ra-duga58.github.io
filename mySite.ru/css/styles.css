@@ -739,6 +739,10 @@ table tbody tr td {
 	#contacts {
 		flex-direction: column;
 	}
+	
+	iframe {
+		width: 400px;
+	}
 }
 
 @media (max-width: 600px)
