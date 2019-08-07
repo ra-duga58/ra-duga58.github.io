@@ -743,6 +743,9 @@ table tbody tr td {
 	iframe {
 		width: 400px !imrortant;
 	}
+	.lp-slider2 .lp-contetn .wrap-text {
+		display: none;
+	}
 }
 
 @media (max-width: 600px)
