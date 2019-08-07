@@ -708,7 +708,7 @@ table tbody tr td {
     grid-row-end: 6;
 }
 /*media queris*/
-@media (max-width: 767px) {
+@media (max-width: 600px) {
 	.logo-img {
 		display: none;
 		
