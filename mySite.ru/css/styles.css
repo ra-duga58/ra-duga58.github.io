@@ -736,6 +736,9 @@ table tbody tr td {
 	.table {
 		width: 100%;
 	}
+	.contacts {
+		flex-direction: column;
+	}
 }
 
 @media (max-width: 600px)
