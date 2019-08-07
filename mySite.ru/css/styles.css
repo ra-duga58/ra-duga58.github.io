@@ -713,4 +713,7 @@ table tbody tr td {
 		display: none;
 		
 }
+	.container-tel {
+		display: none;
+	}
 }
