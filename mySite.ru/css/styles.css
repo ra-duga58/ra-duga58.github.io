@@ -746,6 +746,9 @@ table tbody tr td {
 	.wrap-text {
 		display: none;
 	}
+	.lp-slider2 button {
+		display: none;
+	}
 }
 
 @media (max-width: 600px)
