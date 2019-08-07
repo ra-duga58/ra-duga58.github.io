@@ -749,6 +749,9 @@ table tbody tr td {
 	.lp-slider2 button {
 		display: none;
 	}
+	.owl-carousel.lp-slider2 .item-carousel img {
+		width: 100%;
+	}
 }
 
 @media (max-width: 600px)
