@@ -82,14 +82,14 @@
 	
 
 		$('.workout-block').each(function () {
-			$(this).magnificPopup({
-				delegate: 'a',
-				type: 'image',
-				gallery: {
-					enabled: true
-				}
-			});
-		});
+            $(this).magnificPopup({
+                delegate: 'a',
+                type: 'image',
+                gallery: {
+                    enabled: true
+                }
+            });
+        });
 
 		/* Формы обратной связи */
 

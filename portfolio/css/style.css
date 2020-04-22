@@ -8,7 +8,6 @@ body {
 	-webkit-overflow-scrolling: touch;
 }
 
-/* Titles */
 
 h1,
 h2,
@@ -21,7 +20,6 @@ h6 {
 	color: #333;
 }
 
-/* Paragraph & Typographic */
 
 p {
 	line-height: 28px;
@@ -32,7 +30,6 @@ p {
 	text-align: center;
 }
 
-/* Links */
 
 a {
 	color: #1abc9c;
@@ -71,9 +68,6 @@ hr {
 	margin-bottom: 30px;
 }
 
-/*---------------------------------------------------
-3.1 Topbar
----------------------------------------------------*/
 
 #section-topbar {
 	position: fixed;
@@ -95,12 +89,10 @@ hr {
 	text-align: center;
 }
 
-/*
-Top Bar
-
-By default, top navigation bar uses "fixed" position
-*/
-
+.wrap-piano {
+	overflow: hidden;
+	width: 100%;
+}
 #section-topbar ul#nav {
 	display: inline-block;
 	position: relative;
@@ -150,12 +142,6 @@ By default, top navigation bar uses "fixed" position
 #section-topbar i {
 	font-size: 25px;
 }
-
-/*---------------------------------------------------
-SECTION WRAPS
----------------------------------------------------*/
-
-/* Header Wrap */
 
 #headerwrap {
 	background: linear-gradient(rgba(0, 0, 0, 0.2), rgba(0, 0, 0, 0.5)), url(../img/bg_main.jpg) no-repeat center top;
@@ -210,10 +196,13 @@ p {
 }
 
 #skillswrap {
-	background: #2c3e50;
+	background: linear-gradient(rgba(0, 0, 0, 0.9), rgba(0, 0, 0, 0.9)),  url("../img/bg.jpg") no-repeat;
+	background-size: cover;
 	padding-top: 60px;
 	padding-bottom: 60px;
 	color: white;
+	min-height: 400px;
+	background: transparent;
 }
 
 #skillswrap h5,
@@ -262,10 +251,9 @@ p {
 	color: #999;
 }
 
-/* Global Values */
 
 .desc {
-	padding-top: 50px;
+	padding-top: 150px;
 }
 
 .desc p {
@@ -291,7 +279,6 @@ sm {
 	font-size: 12px;
 }
 
-/* Contact Form */
 
 .contact-form label {
 	color: #999;
@@ -413,7 +400,8 @@ sm {
 .col-lg-6 {
 	margin-bottom: 40px;
 	padding-bottom: 40px;
-	
+	overflow: hidden;
+
 
 }
 
@@ -430,4 +418,99 @@ background: #000;
 
 .col-lg-3::after {
 	display: none;
+}
+
+.key {
+	position: absolute;
+	font-family: Helvetica;
+	font-weight: 100;
+	font-size: 12px;
+	border: 1px solid rgba(32, 32, 32, 0.2);
+	border-radius: 0px 0px 5px 5px;
+	cursor: pointer;
+	box-shadow: 0px 5px 1px rgba(32, 32, 32, 0.2);
+	-webkit-transition: margin 0.05s ease, background-color 0.05s ease, box-shadow 0.05s ease;
+}
+
+.key:hover {
+	background-color: #71DB90;
+}
+
+.key .label {
+	position: absolute;
+	bottom: 15px;
+	text-align: center;
+	left: 0px;
+	right: 0px;
+}
+
+.keyLabel {
+	font-weight: 900;
+	font-size: 15px;
+}
+
+.black {
+	background-color: rgb(32, 32, 32);
+	color: #ffffff;
+	z-index: 1;
+	text-shadow: 0px -1px 1px #FF0000;
+}
+
+.white {
+	background-color: #F2F2DE;
+	color: #000000;
+	z-index: 0;
+	text-shadow: 0px 1px 1px #000000;
+}
+
+.keyboard-holder {
+	height: 200px;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+	max-width: 1200px;
+	width: 100%;
+}
+
+.keyLabel {
+	font-weight: 900;
+	text-shadow: 0px -1px 5px #000000;
+	font-size: 15px;
+}
+
+.black {
+	background-color: rgb(32, 32, 32);
+	color: #ffffff;
+	z-index: 1;
+	text-shadow: 0px -1px 1px #FF0000;
+}
+
+.white {
+	background-color: #F2F2DE;
+	color: #000000;
+	z-index: 0;
+	text-shadow: 0px 1px 1px #000000;
+}
+
+.keyboard-holder {
+	margin: 0 auto;
+	height: 200px;
+	position: relative;
+	user-select: none;
+	-webkit-user-select: none;
+	-moz-user-select: none;
+	-o-user-select: none;
+}
+.img-responsive {
+	width: 100%;
+	opacity: .8;
+	transform: scale(1.3, 1.3);
+	transition: transform .5s, opacity .3s;
+}
+.img-responsive:hover {
+	width: 100%;
+	opacity: 1;
+	transform: scale(1.35, 1.35);
 }

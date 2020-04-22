@@ -7,22 +7,14 @@
 	<meta content="width=device-width, initial-scale=1.0" name="viewport">
 	<meta content="" name="keywords">
 	<meta content="" name="description">
-
-	<!-- Favicons -->
 	<link href="img/favicon.png" rel="icon">
 	<link href="img/apple-touch-icon.png" rel="apple-touch-icon">
-
-	<!-- Google Fonts -->
 	<link href="https://fonts.googleapis.com/css?family=Lato:300,400,700,300italic,400italic|Raleway:400,300,700" rel="stylesheet">
-
-	<!-- Bootstrap CSS File -->
 	<link href="lib/bootstrap/css/bootstrap.min.css" rel="stylesheet">
-
-	<!-- Libraries CSS Files -->
 	<link href="lib/font-awesome/css/font-awesome.min.css" rel="stylesheet">
-
-	<!-- Main Stylesheet File -->
 	<link href="css/style.css" rel="stylesheet">
+	<script src="js/audiosynth.js"></script>
+	<script src="js/playKeyboard.js"></script>
 
 </head>
 
@@ -67,6 +59,8 @@
 			<!--/.row -->
 		</div>
 		<!--/.container -->
+
+
 	</div>
 	<!--/.#headerwrap -->
 
@@ -84,22 +78,26 @@
 							I am a Frontend developer. I am engaged in the implementation of an adaptive valid layout that complies with W3C standards, support for cross-browser compatibility.
 							I pay great attention to details, do the work within the deadlines, executive, have a high level of performance. I strive to improve knowledge and skills, conscientious in work.<br>
 							English level Pre-intermediate.<br>
-							I like an active type of rest, I am fond of sports.</p>
+							I like an active type of rest, I am fond of sports and music.</p>
 					</div>
-
 
 				</div>
 				<!--/.row -->
 			</div>
 			<!--/.container -->
+
+
 		</div>
 		<!--/ #intro -->
+		<div class="wrap-piano"><div id="keyboard" class="keyboard-holder"></div></div>
 	</section>
 
 
 	<section id="resume" name="resume">
 		<!--EDUCATION DESCRIPTION -->
+
 		<div class="container desc">
+			<hr>
 			<div class="row">
 
 				<div class="col-lg-2 col-lg-offset-1">
@@ -141,7 +139,7 @@
 				</div>
 				<div class="col-lg-3">
 					<p>
-						<sm>2018</sm>
+						<sm>2019</sm>
 					</p>
 				</div>
 
@@ -160,14 +158,15 @@
 			</div>
 			<!--/.row -->
 			<br>
-			<hr>
+
 		</div>
 		<!--/.container -->
 	</section>
 
 
 	<!--SKILLS DESCRIPTION -->
-	<div id="skillswrap">
+	<div id="skillswrap" class="parallax-window" data-parallax="scroll" data-natural-width="1600" data-natural-height="1067"
+	data-speed="0.1" data-image-src="img/bg.jpg">
 		<div class="container">
 			<div class="row">
 				<div class="col-lg-2 col-lg-offset-1">
@@ -384,18 +383,15 @@
 		</div>
 		<!--/ #footer -->
 	</section>
-
-
-	<!-- JavaScript Libraries -->
+	<script src="js/jquery.min.js"></script>
+	<script src="js/parallax.js"></script>
 	<script src="lib/jquery/jquery.min.js"></script>
 	<script src="lib/bootstrap/js/bootstrap.min.js"></script>
 	<script src="lib/php-mail-form/validate.js"></script>
 	<script src="lib/chart/chart.js"></script>
 	<script src="lib/easing/easing.min.js"></script>
-
-	<!-- Template Main Javascript File -->
 	<script src="js/main.js"></script>
-
+	<script type="text/javascript">playKeyboard()</script>
 </body>
 
 </html>

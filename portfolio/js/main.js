@@ -88,5 +88,7 @@ jQuery(document).ready(function( $ ) {
     color: "#ecf0f1"
   }
   ];
+
   var myDoughnut = new Chart(document.getElementById("illustrator").getContext("2d")).Doughnut(doughnutData);
+
 });
